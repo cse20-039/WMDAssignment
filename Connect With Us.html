@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+
+<head>
+      <meta charset="utf-8">
+      <meta name="viewpoint" content= "width=device-width, initial scale=1">
+      <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title> Connect With Us page </title>
+
+<script>
+	function validateForm() {
+	  var x = document.forms["forms"]["fname"].value;
+	  if (x == "") {
+		alert("Name must be filled out");
+		return false;
+	  }
+	}
+</script>
+
+</head>
+
+<body class="connect">
+    <img src="connect.jpg" width="1430" height="870" style="margin-bottom: 0%; padding-bottom: 0%;">
+
+    <div class="nav-area">
+        <div class="logo"><span>BER</span>LIN</div>
+        
+        <ul class="menu-area">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About Page.html">ABOUT US</a></li>
+            <li><a href="Lifestyle Page.html">LIFESTYLE</a></li>
+            <li><a href="Events Page.html">EVENTS</a></li>
+            <li class="active"><a href="Connect With Us.html">CONNECT WITH US</a></li>
+        </ul>
+
+        <div class="wrapper">
+            <h1>Subscribe to our Newsletter</h1>
+            <p>Receive updates instanly</p>
+		</div>	
+		<br>
+        <div class="forms">
+		<form action="/thank you.html" method="GET">
+			<label for="fname">First name:</label><br>
+			<input type="text" placeholder="First Name" required id="fname" name="fname" ><br><br>
+
+			<label for="lname">Last name:</label><br>
+			<input type="text" placeholder="Enter Surname" id="lname" name="lname"  
+			required oninvalid="this.setCustomValidity('Please enter surname.')" oninput="this.CustomValidity('')" ><br><br> 
+
+			<label for="eadd">Email Address:</label><br>
+			<input type="email" placeholder="email" id="email" name="eadd"> <br><br>	
+
+			<label for="cname">Country:</label><br>
+			<input type="text" placeholder="Country" id="cname" name="cname" ><br><br>
+
+			<label for="rname">Region:</label><br>
+			<input type="text" placeholder="Region" id="rname" name="rname" ><br><br>
+
+			
+			</form>
+
+		<div class="btn">
+			<a href=" thank you.html">submit</a>
+			</div> 
+			</div>		 
+		
+	    </div>		 
+	</div>
+
+<footer>
+	<div class="footer-content">
+		<ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+        </ul>
+        
+        <p>copyright &copy;2021 <span>BER</span>LIN</p>
+	</div>
+</footer>
+
+		  
